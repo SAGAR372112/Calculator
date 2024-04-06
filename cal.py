@@ -3,7 +3,7 @@ import tkinter.messagebox
 from tkinter.constants import SUNKEN
 
 window = tk.Tk()
-window.title('Calculator-GeeksForGeeks')
+window.title('Calculator')
 frame = tk.Frame(master=window, bg="lightgreen", padx=10)
 frame.pack()
 entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=4, width=40)
